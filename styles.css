@@ -15,3 +15,14 @@ body {
 h2 {
   font-family: "Noto Sans Arabic", sans-serif;
 }
+
+@font-face {
+  font-family: Vazir;
+  src: url("/resources/Vazir-Regular.eot");
+  src: url("/resources/Vazir-Regular.eot?#iefix") format("embedded-opentype"),
+    url("/resources/Vazir-Regular.woff2") format("woff2"),
+    url("/resources/Vazir-Regular.woff") format("woff"),
+    url("/resources/Vazir-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
