@@ -4,12 +4,7 @@ body {
 * {
   border-radius: 20px;
   padding: 0.5rem;
-  font-family: Samim;
-}
-
-@font-face {
-  font-family: "Samim";
-  src: url("/resources/Samim.ttf") format("truetype");
+  font-family: "Noto Sans Arabic", sans-serif;
 }
 
 h2 {
