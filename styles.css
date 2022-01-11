@@ -3,7 +3,7 @@ body {
 }
 @font-face {
   font-family: "Samim";
-  src: url("/resources/Samim.ttf") format("truetype");
+  src: url("../resources/Samim.ttf") format("truetype");
 }
 * {
   border-radius: 20px;
