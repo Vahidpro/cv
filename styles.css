@@ -1,23 +1,17 @@
-body {
-  background-color: rgb(218, 241, 248);
+@font-face {
+  font-family: Vazir;
+  src: url("./resources/Vazir-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
+
+body {
+  background-color: #020213;
+  color: rgb(226, 226, 226);
+}
+
 * {
   border-radius: 20px;
   padding: 0.5rem;
   font-family: Vazir;
-}
-
-@font-face {
-  font-family: "Samim";
-  src: url("..resources/Samim.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: Vazir;
-  src: url("../resources/Vazir-Regular.eot");
-  src: url("../resources/Vazir-Regular.eot?#iefix") format("embedded-opentype"),
-    url("../resources/Vazir-Regular.woff") format("woff"),
-    url("../resources/Vazir-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
