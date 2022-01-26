@@ -5,14 +5,23 @@
 	font-style: normal;
 }
 
-body {
+* {
+	color: rgb(226, 226, 226);
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-family: Vazir, sans-serif;
+	background-color: #212124;
+	margin: 0;
 }
 
-* {
-	background-color: #212124;
-	color: rgb(226, 226, 226);
-	border-radius: 20px;
-	font-family: Vazir;
+.main-header-name div {
+	display: inline-block;
+}
+
+.main-nav__items > li {
+	display: inline-block;
+	padding: 10px;
+	font-size: large;
 }
 
 a {
