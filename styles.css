@@ -1,17 +1,20 @@
 @font-face {
-  font-family: Vazir;
-  src: url("./resources/Vazir-Regular.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
+	font-family: Vazir;
+	src: url("./resources/Vazir-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
 }
 
 body {
-  background-color: #020213;
-  color: rgb(226, 226, 226);
 }
 
 * {
-  border-radius: 20px;
-  padding: 0.5rem;
-  font-family: Vazir;
+	background-color: #212124;
+	color: rgb(226, 226, 226);
+	border-radius: 20px;
+	font-family: Vazir;
+}
+
+a {
+	text-decoration: none;
 }
