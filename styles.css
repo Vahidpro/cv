@@ -18,7 +18,7 @@ body {
 
 .main-header {
 	align-items: center;
-	padding-top: 5px;
+	padding: 8px;
 	vertical-align: middle;
 	background-color: #212121;
 }
@@ -27,7 +27,13 @@ body {
 	width: (100% - 66px);
 	vertical-align: middle;
 }
-
+.main-nav__item {
+	/* margin: 10px;
+	padding: 8px; */
+	display: inline-block;
+	margin: 0 5px;
+	padding: 8px;
+}
 .main-nav__items {
 	margin: 0;
 	padding: 0;
@@ -36,15 +42,13 @@ body {
 
 .main-nav__items > li {
 	display: inline-block;
-	padding: 10px;
 	font-size: large;
 }
 
 .main-nav__items a:hover {
-	background-color: #142847;
-	color: #fff;
-	border-radius: 20px;
-	padding: 8px;
+	/* background-color: #0f274d; */
+	color: rgb(0, 140, 255);
+	border-radius: 15px;
 }
 
 .main-header > div {
@@ -53,7 +57,7 @@ body {
 }
 
 .logo {
-	width: 55vw;
+	width: 45vw;
 	text-align: left;
 	justify-content: center;
 	align-items: center;
@@ -98,4 +102,9 @@ a {
 	.logo-text {
 		padding: 0 2.6rem;
 	}
+}
+
+.hero-image img {
+	width: 100%;
+	padding: 40px;
 }
