@@ -16,6 +16,11 @@ body {
 	background-color: #0a0a0a;
 }
 
+::selection {
+	/* color: crimson; */
+	background-color: crimson;
+}
+
 .main-header {
 	align-items: center;
 	padding: 8px;
@@ -107,4 +112,8 @@ a {
 .hero-image img {
 	width: 100%;
 	padding: 40px;
+}
+
+h3 {
+	margin: 20px;
 }
