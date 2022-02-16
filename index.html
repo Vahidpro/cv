@@ -1,53 +1,80 @@
 <!DOCTYPE html>
 <html dir="rtl" lang="fa-IR">
-	<head>
-		<link rel="stylesheet" href="styles.css" />
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Vahid Porki</title>
-	</head>
-	<body>
-		<header class="main-header">
-			<nav class="main-nav">
-				<ul class="main-nav__items">
-					<li>
-						<a href="#" class="main-nav__item">رزومه</a>
-					</li>
-					<li>
-						<a href="#about-me" class="main-nav__item">درباره من</a>
-					</li>
-					<li>
-						<a href="#" class="main-nav__item">نمونه کارها</a>
-					</li>
-				</ul>
-			</nav>
-			<div class="logo">
-				<a
-					class="logo-text"
-					href="https://api.whatsapp.com/send?phone=+989209219201"
-				>
-					تماس با من
-				</a>
-			</div>
-		</header>
-		<h3 class="update-message">
-			این وبسایت درحال توسعه و بروز‌رسانی می‌باشد...🧑‍💻🏊👍
-		</h3>
-		<section class="hero-section">
-			<div class="hero-image">
-				<img src="./resources/hero-image.svg" alt="hero-image" />
-			</div>
-		</section>
-		<section id="about-me" class="about-me">
-			<div>
-				<p class="about-me content-card">
-					من یک <span>توسعه دهنده فرانت اند</span> هستم و علاقه شدیدی به یادگیری
-					تکنولوژی های جدید دارم، معتقدم که کنجکاوی دری به سوی یادگیری هر چیزی
-					هست، این اعتیاد به یادگیری بهم کمک کرده تا چیزهای فوق العاده ای که
-					برای این حرفه نیازه فرا بگیرم.
-				</p>
-			</div>
-		</section>
-	</body>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="./resources/icon.png" />
+    <title>Vahid Porki</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-nav">
+        <ul class="main-nav__items">
+          <li>
+            <a href="#about-me" class="main-nav__item">درباره من</a>
+          </li>
+          <li>
+            <a href="#skills" class="main-nav__item">مهارت ها</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="main-nav__item">نمونه کارها</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="logo">
+        <a
+          class="logo-text"
+          href="https://api.whatsapp.com/send?phone=+989209219201"
+        >
+          تماس با من
+        </a>
+      </div>
+    </header>
+    <h3 class="update-message">
+      این وبسایت درحال توسعه و بروز‌رسانی می‌باشد...🧑‍💻🏊👍
+    </h3>
+    <section class="hero-section">
+      <div class="hero-image">
+        <img src="./resources/hero-image.svg" alt="hero-image" />
+      </div>
+    </section>
+    <section id="about-me" class="about-me">
+      <h1>درباره من</h1>
+      <div>
+        <p class="about-me content-card">
+          من یک <span>توسعه دهنده فرانت اند</span> هستم و علاقه شدیدی به یادگیری
+          تکنولوژی های جدید دارم، معتقدم که کنجکاوی دری به سوی یادگیری هر چیزی
+          هست، این اعتیاد به یادگیری بهم کمک کرده تا چیزهای فوق العاده ای که
+          برای این حرفه نیازه فرا بگیرم.
+        </p>
+      </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <h1>نمونه کارها</h1>
+      <div class="portfolio-cards">
+        <article class="portfolio-card">
+          <h3>سایت برای هر نوع سرویس</h3>
+          <div>
+            <img
+              class="portfolio-card__img"
+              src="./resources/monthly-subscription.jpg"
+              alt="سایت سرویس دهی"
+            />
+          </div>
+        </article>
+        <article class="portfolio-card">
+          <h3>بازی هیجان انگیز حدس بزن</h3>
+          <div>
+            <img
+              class="portfolio-card__img"
+              src="./resources/guess-me.jpg"
+              alt="سایت سرویس دهی"
+            />
+          </div>
+        </article>
+      </div>
+    </section>
+  </body>
 </html>
