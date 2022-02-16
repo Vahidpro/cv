@@ -18,9 +18,12 @@ body {
 
 ::selection {
 	/* color: crimson; */
-	background-color: crimson;
+	background: crimson;
 }
 
+p {
+	margin: 10px;
+}
 .main-header {
 	align-items: center;
 	padding: 8px;
@@ -114,6 +117,30 @@ a {
 	padding: 40px;
 }
 
-h3 {
+h3.update-message {
 	margin: 20px;
+	padding: 5px;
+	padding-right: 10px;
+	color: crimson;
+	background: #220505;
+	border-radius: 10px;
+}
+
+/* li::marker {
+	color: red;
+} */
+
+p.about-me {
+	font-size: large;
+	color: #b3b3b3;
+	padding: 10px;
+	font-weight: 100;
+}
+p.about-me span {
+	color: #6c63ff;
+	font-weight: bold;
+}
+.content-card {
+	background: #181818;
+	border-radius: 20px;
 }
