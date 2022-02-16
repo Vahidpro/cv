@@ -121,9 +121,12 @@ h3.update-message {
 	margin: 20px;
 	padding: 5px;
 	padding-right: 10px;
-	color: crimson;
-	background: #220505;
+	color: seagreen;
+	background: rgb(3, 29, 14);
 	border-radius: 10px;
+}
+h3.update-message::selection {
+	background: springgreen;
 }
 
 /* li::marker {
