@@ -1,6 +1,6 @@
 @font-face {
   font-family: Vazir;
-  src: url("./resources/Vazir-Regular.woff2") format("woff2");
+  src: url("./resources/fonts/Vazir.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -116,6 +116,10 @@ a {
   }
 }
 
+.section-title {
+  text-align: center;
+}
+
 .hero-image img {
   width: 100%;
   padding: 40px;
@@ -183,6 +187,14 @@ h3 {
   margin: 15px;
 }
 
-section > h1 {
+.skills-icons {
+  vertical-align: middle;
   text-align: center;
+}
+
+.skills-icon {
+  width: 15%;
+  align-items: center;
+  margin: 10px;
+  display: inline-block;
 }
