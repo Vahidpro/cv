@@ -216,14 +216,18 @@ h3 {
   margin: 15px;
 }
 
-.skills-icons {
+.skill-icons {
   vertical-align: middle;
   text-align: center;
 }
 
-.skills-icon {
+.skill-icon {
   width: 15%;
-  align-items: center;
+  text-align: center;
   margin: 10px;
   display: inline-block;
+}
+
+.skills {
+  text-align: center;
 }
