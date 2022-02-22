@@ -144,6 +144,7 @@ a {
 
 .section-title {
   text-align: center;
+  font-weight: bold;
 }
 
 .hero-image img {
@@ -157,6 +158,7 @@ h3.update-message {
   color: seagreen;
   background: rgb(3, 29, 14);
   border-radius: 10px;
+  font-weight: bold;
 }
 h3.update-message::selection {
   background: springgreen;
@@ -168,9 +170,10 @@ h3.update-message::selection {
 
 p.about-me {
   font-size: large;
+  font-weight: bold;
   color: #b3b3b3;
   padding: 10px;
-  font-weight: 100;
+  font-weight: 500;
 }
 p.about-me span {
   color: #6c63ff;
