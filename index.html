@@ -12,6 +12,9 @@
     <header class="main-header">
       <nav class="main-nav">
         <ul class="main-nav__items">
+          <button class="mobile-nav-button mobile-nav-menu  white">
+            <img src="./resources/icons/mobile-ham.svg" alt="">
+          </button>
           <li>
             <a href="#about-me" class="main-nav__item">درباره من</a>
           </li>
@@ -31,8 +34,24 @@
           تماس با من
         </a>
       </div>
+      <nav class="mobile-nav">
+        <button class="mobile-nav-button mobile-nav-close">
+          <img class="white" src="./resources/icons/mobile-close.svg" alt="">
+        </button>
+        <ul class="mobile-nav__items">
+          <li class="mobile-nav__item">
+            <a href="#about-me" >درباره من</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a href="#skills" >مهارت ها</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a href="#portfolio">نمونه کارها</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <h3 class="update-message">
+    <h3 style="margin-top: 7.5rem;" class="update-message">
       این وبسایت درحال توسعه و بروز‌رسانی می‌باشد...🧑‍💻🏊👍
     </h3>
     <main>
@@ -116,7 +135,7 @@
         >
           نمونه کارهای بیشتر به زودی اضافه می‌شوند...
         </h3>
-        <div class="portfolio-cards">
+        <a href="#">
           <article class="portfolio-card">
             <h3>سایت برای هر نوع سرویس</h3>
             <div>
@@ -125,8 +144,8 @@
                 src="./resources/monthly-subscription.jpg"
                 alt="سایت سرویس دهی"
               />
-            </div>
           </article>
+        </a>
           <article class="portfolio-card">
             <h3>بازی هیجان انگیز حدس بزن</h3>
             <div>
@@ -140,6 +159,16 @@
         </div>
       </section>
     </main>
+    <footer>
+      <div class="developer">
+        <p>طراحی و توسعه توسط 
+        <a href="https://twitter.com/Vahidpr">وحید پُرکی</a>
+        ۱۴۰۰
+      </p>
+      </div>
+      
+    </footer>
+    <script src="./main.js"></script>
   </body>
   <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 </html>

@@ -48,17 +48,19 @@ body {
 }
 
 img {
-  border-radius: 20px;
+  border-radius: 1.2rem;
 }
 
 p {
   margin: 10px;
 }
 .main-header {
-  align-items: center;
+  width: 100%;
+  top: 0;
   padding: 8px;
   vertical-align: middle;
   background-color: #212121;
+  position: fixed;
 }
 .main-nav {
   display: inline-block;
@@ -66,8 +68,6 @@ p {
   vertical-align: middle;
 }
 .main-nav__item {
-  /* margin: 10px;
-	padding: 8px; */
   display: inline-block;
   margin: 0 5px;
   padding: 8px;
@@ -76,6 +76,8 @@ p {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
 .main-nav__items > li {
@@ -86,12 +88,66 @@ p {
 .main-nav__items a:hover {
   /* background-color: #0f274d; */
   color: rgb(0, 140, 255);
-  border-radius: 15px;
+  /* border-radius: 15px; */
+}
+
+.main-nav__items button img {
+  width: 2rem;
+  height: 2rem;
 }
 
 .main-header > div {
   display: inline-block;
-  /* font-size: x-large; */
+}
+
+.mobile-nav {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  background: #181818;
+  z-index: 101;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+}
+.mobile-nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.white {
+  filter: invert(98%) sepia(4%) saturate(71%) hue-rotate(146deg)
+    brightness(112%) contrast(100%);
+}
+
+.mobile-nav svg {
+  width: 10%;
+}
+
+.mobile-nav__items a {
+  margin: 100px;
+}
+
+.mobile-nav__items {
+  list-style: none;
+  font-size: x-large;
+  padding: 10px;
+  margin: 10% auto;
+}
+
+.mobile-nav__item {
+  /* padding: 2rem; */
+  padding: 1rem;
+}
+
+.mobile-nav__item:hover {
+  color: rgb(0, 140, 255);
+  background: #5543cc3d;
+  border-radius: 100px 0px 0px 100px;
 }
 
 .logo {
@@ -147,9 +203,14 @@ a {
   font-weight: bold;
 }
 
+.hero-image {
+  text-align: center;
+}
+
 .hero-image img {
   width: 100%;
   padding: 40px;
+  max-width: 935px;
 }
 
 h3.update-message {
@@ -229,5 +290,22 @@ h3 {
 }
 
 .skills {
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  background: #212121;
+  padding: 10px;
+  margin-top: 48px;
+}
+
+footer p a {
+  color: #695df8;
+  font-weight: 900;
+}
+
+footer div p {
   text-align: center;
 }
