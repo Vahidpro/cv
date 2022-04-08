@@ -52,25 +52,28 @@ img {
 }
 
 p {
-  margin: 10px;
+  margin: 0.625rem;
+  text-align: justify;
+  text-justify: distribute;
 }
 .main-header {
   width: 100%;
+  height: 4rem;
   top: 0;
-  padding: 8px;
+  padding: 0.5rem;
   vertical-align: middle;
   background-color: #212121;
   position: fixed;
 }
 .main-nav {
   display: inline-block;
-  width: (100% - 66px);
+  width: (100% - 4.125rem);
   vertical-align: middle;
 }
 .main-nav__item {
   display: inline-block;
-  margin: 0 5px;
-  padding: 8px;
+  margin: 0 0.3125rem;
+  padding: 0.5rem;
 }
 .main-nav__items {
   margin: 0;
@@ -86,9 +89,7 @@ p {
 }
 
 .main-nav__items a:hover {
-  /* background-color: #0f274d; */
   color: rgb(0, 140, 255);
-  /* border-radius: 15px; */
 }
 
 .main-nav__items button img {
@@ -110,7 +111,7 @@ p {
   text-align: center;
   background: #181818;
   z-index: 101;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0rem 0rem 0.625rem 0.625rem;
   text-align: center;
 }
 .mobile-nav-button {
@@ -129,13 +130,13 @@ p {
 }
 
 .mobile-nav__items a {
-  margin: 100px;
+  margin: 6.25rem;
 }
 
 .mobile-nav__items {
   list-style: none;
   font-size: x-large;
-  padding: 10px;
+  padding: 0.625rem;
   margin: 10% auto;
 }
 
@@ -147,14 +148,14 @@ p {
 .mobile-nav__item:hover {
   color: rgb(0, 140, 255);
   background: #5543cc3d;
-  border-radius: 100px 0px 0px 100px;
+  border-radius: 6.25rem 0rem 0rem 6.25rem;
 }
 
 .logo {
-  width: 45vw;
-  text-align: left;
-  justify-content: center;
-  align-items: center;
+  margin: 0.5rem;
+  position: fixed;
+  left: 1rem;
+  top: 0.001rem;
 }
 
 a {
@@ -163,36 +164,40 @@ a {
 
 /* Button CSS */
 .logo-text {
+  left: 10px;
   background-image: linear-gradient(
     92.88deg,
     #455eb5 9.16%,
     #5643cc 43.89%,
     #673fd7 64.72%
   );
-  font-size: x-large;
-  border-radius: 25px;
+  font-size: 1.4rem;
+  border-radius: 1.5625rem;
   border-style: none;
   box-sizing: border-box;
   color: #ffffff;
   cursor: pointer;
   flex-shrink: 0;
   font-weight: 700;
-  height: 5rem;
+  height: 3rem;
   padding: 0 1.6rem;
-  height: 5rem;
-  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 0.1875rem 0.5rem;
   transition: all 0.5s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  display: flex;
+  align-items: center; /*Vertical align*/
+  justify-content: center; /*horizontal align*/
 }
 
 .logo-text:hover {
-  box-shadow: rgba(80, 63, 205, 0.5) 0 2px 30px;
+  box-shadow: rgba(80, 63, 205, 0.5) 0 0.125rem 1.875rem;
   transition-duration: 0.1s;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .logo-text {
     padding: 0 2.6rem;
   }
@@ -208,17 +213,20 @@ a {
 }
 
 .hero-image img {
+  margin-top: 2rem;
   width: 100%;
-  padding: 40px;
-  max-width: 935px;
+  max-width: 58.4375rem;
+}
+
+.update-message {
+  margin-top: 5rem;
 }
 
 h3.update-message {
-  padding: 5px;
-  padding-right: 10px;
+  padding: 0.6125rem;
   color: seagreen;
   background: rgb(3, 29, 14);
-  border-radius: 10px;
+  border-radius: 0.625rem;
   font-weight: bold;
 }
 h3.update-message::selection {
@@ -233,7 +241,7 @@ p.about-me {
   font-size: large;
   font-weight: bold;
   color: #b3b3b3;
-  padding: 10px;
+  padding: 0.625rem;
   font-weight: 500;
 }
 p.about-me span {
@@ -242,39 +250,45 @@ p.about-me span {
 }
 .content-card {
   background: #181818;
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 
 .portfolio-cards {
-  border-radius: 20px;
+  border-radius: 1.25rem;
   vertical-align: middle;
   text-align: center;
 }
 
 .portfolio-card {
-  width: 45%;
-  padding: 10px;
-  border-radius: 20px;
+  width: 95%;
+  height: 20rem;
+  padding: 0.625rem;
+  border-radius: 1.25rem;
   background: #181818;
   font-size: 2.5vw;
   font-weight: 400;
   text-align: center;
-  margin: 10px;
+  margin: 0.625rem;
   display: inline-block;
   color: #b3b3b3;
 }
 
 .portfolio-card__img {
   width: 100%;
-  height: 30vw;
-  border-radius: 15px;
+  height: 15rem;
+  border-radius: 0.9375rem;
 }
 
 section,
 h1,
 h2,
 h3 {
-  margin: 15px;
+  margin: 0.9375rem;
+}
+
+article > h3 {
+  margin: 0.6rem 0rem 1rem 0rem;
+  font-size: x-large;
 }
 
 .skill-icons {
@@ -283,9 +297,10 @@ h3 {
 }
 
 .skill-icon {
-  width: 15%;
+  font-size: 1.7rem;
   text-align: center;
-  margin: 10px;
+  margin: 0.625rem;
+  width: 42%;
   display: inline-block;
 }
 
@@ -297,8 +312,8 @@ h3 {
 
 footer {
   background: #212121;
-  padding: 10px;
-  margin-top: 48px;
+  padding: 0.625rem;
+  margin-top: 3rem;
 }
 
 footer p a {
@@ -308,4 +323,46 @@ footer p a {
 
 footer div p {
   text-align: center;
+}
+
+/* Tablet */
+@media (min-width: 30rem) {
+  .hero-image {
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 100%;
+    padding: 2.5rem;
+    max-width: 58.4375rem;
+  }
+
+  .skill-icon {
+    width: 15%;
+    margin: 0.625rem;
+  }
+
+  .portfolio-card {
+    width: 95%;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
+    background: #181818;
+    font-size: 2.5vw;
+    font-weight: 400;
+    text-align: center;
+    margin: 0.625rem;
+    display: inline-block;
+    color: #b3b3b3;
+  }
+
+  .portfolio-card__img {
+    width: 100%;
+    height: 30vw;
+    border-radius: 0.9375rem;
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 48rem) {
 }
