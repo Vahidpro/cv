@@ -307,8 +307,14 @@ footer div p {
 }
 
 .social-container img {
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
+  margin: 0.5rem;
+}
+
+.developer p {
+  font-size: large;
+  font-weight: 500;
 }
 
 /* Tablet */
