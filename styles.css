@@ -180,8 +180,13 @@ a {
 .section-title {
   text-align: center;
   font-weight: bold;
-  background-color: rgba(10, 84, 107, 0.034);
+  background-color: rgba(10, 52, 107, 0.178);
   border-radius: 1.5625rem;
+  margin-top: 3rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-image {
@@ -271,6 +276,7 @@ article > h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .skill-icon {
@@ -278,11 +284,19 @@ article > h3 {
   text-align: center;
   margin: 0.625rem;
   width: 42%;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .skills {
   text-align: center;
+}
+
+.developer p {
+  font-size: large;
+  font-weight: 500;
 }
 
 /* Footer */
@@ -313,11 +327,6 @@ footer div p {
   width: 3rem;
   height: 3rem;
   margin: 0.5rem;
-}
-
-.developer p {
-  font-size: large;
-  font-weight: 500;
 }
 
 /* Tablet */
