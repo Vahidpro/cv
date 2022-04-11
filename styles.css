@@ -1,38 +1,9 @@
-@font-face {
-  font-family: Vazir;
-  src: url("./resources/fonts/Vazir.woff2") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: Vazir;
-  src: url("/resources/fonts/Vazir-Bold.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: Vazir;
-  src: url("./resources/fonts/Vazir-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: Vazir;
-  src: url("./resources/fonts/Vazir-Light.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: Vazir;
-  src: url("./resources/fonts/Vazir-Thin.woff2") format("woff2");
-  font-weight: 100;
-  font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   box-sizing: border-box;
   color: rgb(226, 226, 226);
-  font-family: Vazir, sans-serif;
+  font-family: "Vazirmatn", sans-serif;
   font-style: normal;
   font-weight: normal;
   margin: 0;
