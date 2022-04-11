@@ -180,6 +180,8 @@ a {
 .section-title {
   text-align: center;
   font-weight: bold;
+  background-color: rgba(10, 84, 107, 0.034);
+  border-radius: 1.5625rem;
 }
 
 .hero-image {
@@ -266,8 +268,9 @@ article > h3 {
 }
 
 .skill-icons {
-  vertical-align: middle;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .skill-icon {
@@ -357,4 +360,9 @@ footer div p {
 /* Desktop */
 
 @media (min-width: 48rem) {
+  .skill-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }
