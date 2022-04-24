@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html dir="rtl" lang="fa-IR">
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="./resources/icon.png" />
-    <title>Vahid Porki</title>
-  </head>
-  <body>
-    <header class="main-header">
-      <nav class="main-nav">
-        <button class="mobile-nav-button mobile-nav-menu  white">
-            <img src="./resources/icons/mobile-ham.svg" alt="">
-          </button>
-        <!-- <ul class="main-nav__items">
+
+<head>
+  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="./resources/icon.png" />
+  <title>Vahid Porki</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <nav class="main-nav">
+      <button class="mobile-nav-button mobile-nav-menu  white">
+        <img src="./resources/icons/mobile-ham.svg" alt="">
+      </button>
+      <!-- <ul class="main-nav__items">
           
           <li>
             <a href="#about-me" class="main-nav__item">درباره من</a>
@@ -26,182 +28,146 @@
             <a href="#portfolio" class="main-nav__item">نمونه کارها</a>
           </li>
         </ul> -->
-      </nav>
-      <div class="logo">
-        <a
-          class="logo-text"
-          href="https://api.whatsapp.com/send?phone=+989209219201"
-        >تماس با من</a>
+    </nav>
+    <div class="logo">
+      <a class="logo-text" href="https://api.whatsapp.com/send?phone=+989209219201">تماس با من</a>
+    </div>
+    <nav class="mobile-nav">
+      <button class="mobile-nav-button mobile-nav-close">
+        <img class="white" src="./resources/icons/mobile-close.svg" alt="">
+      </button>
+      <ul class="mobile-nav__items">
+        <li class="mobile-nav__item">
+          <a href="#about-me">درباره من</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#skills">مهارت ها</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#portfolio">نمونه کارها</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <h3 class="update-message">
+    این وبسایت درحال توسعه و بروز‌رسانی می‌باشد...🧑‍💻🏊👍
+  </h3>
+  <main>
+    <section class="hero-section">
+      <div class="hero-image">
+        <img src="./resources/hero-image.svg" alt="hero-image" />
       </div>
-      <nav class="mobile-nav">
-        <button class="mobile-nav-button mobile-nav-close">
-          <img class="white" src="./resources/icons/mobile-close.svg" alt="">
-        </button>
-        <ul class="mobile-nav__items">
-          <li class="mobile-nav__item">
-            <a href="#about-me" >درباره من</a>
-          </li>
-          <li class="mobile-nav__item">
-            <a href="#skills" >مهارت ها</a>
-          </li>
-          <li class="mobile-nav__item">
-            <a href="#portfolio">نمونه کارها</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <h3 class="update-message">
-      این وبسایت درحال توسعه و بروز‌رسانی می‌باشد...🧑‍💻🏊👍
-    </h3>
-    <main>
-      <section class="hero-section">
-        <div class="hero-image">
-          <img src="./resources/hero-image.svg" alt="hero-image" />
-        </div>
-      </section>
-      <section id="about-me" class="about-me">
-        <h1 class="section-title">درباره من</h1>
-        <div>
-          <p class="about-me content-card">
-            من یک <span>توسعه دهنده فرانت اند</span> هستم و علاقه شدیدی به
-            یادگیری تکنولوژی های جدید دارم، معتقدم که کنجکاوی دری به سوی یادگیری
-            هر چیزی هست، این اعتیاد به یادگیری بهم کمک کرده تا چیزهای فوق العاده
-            ای که برای این حرفه نیازه فرا بگیرم.
-          </p>
-        </div>
-      </section>
-      <section id="skills" class="skills">
-        <h1 class="section-title">مهارت ها</h1>
-        <div class="skill-icons">
-          
-          <article class="skill-icon">
-            <span
-              class="iconify"
-              data-icon="fluent:javascript-16-filled"
-              data-width="96"
-              data-height="96"
-            ></span>
-            <h4>JavaScript</h۴>
-          </article>
-          
-          <article class="skill-icon">
-           <span
-            class="iconify"
-            data-icon="bxl:css3"
-            data-width="96"
-            data-height="96"
-           ></span>
-            <h4 class="skill-title">CSS</h4>
-          </article>
-          
-           <article class="skill-icon">
-          <span
-            class="iconify "
-            data-icon="icon-park-outline:html-five"
-            data-width="96"
-            data-height="96"
-          ></span>
-            <h4 class="skill-title">HTML</h4>
-          </article>
-           <article class="skill-icon">
-             <span
-            class="iconify"
-            data-icon="bxl:git"
-            data-width="96"
-            data-height="96"
-          ></span>
-            <h4 class="skill-title">Git</h4>
-          </article>
-           <article class="skill-icon">
-             <span
-            class="iconify"
-            data-icon="ci:github"
-            data-width="96"
-            data-height="96"
-          ></span>
-            <h4 class="skill-title">Github</h4>
-          </article>
-          
-          
-        </div>
-      </section>
+    </section>
+    <section id="about-me" class="about-me">
+      <h1 class="section-title">درباره من</h1>
+      <div>
+        <p class="about-me content-card">
+          من یک <span>توسعه دهنده فرانت اند</span> هستم و علاقه شدیدی به
+          یادگیری تکنولوژی های جدید دارم، معتقدم که کنجکاوی دری به سوی یادگیری
+          هر چیزی هست، این اعتیاد به یادگیری بهم کمک کرده تا چیزهای فوق العاده
+          ای که برای این حرفه نیازه فرا بگیرم.
+        </p>
+      </div>
+    </section>
+    <section id="skills" class="skills">
+      <h1 class="section-title">مهارت ها</h1>
+      <div class="skill-icons">
 
-      <section id="portfolio" class="portfolio">
-        <h1 class="section-title">نمونه کارها</h1>
-        <h3
-          style="color: crimson; background: rgba(165, 42, 42, 0.212)"
-          class="update-message"
-        >
-          نمونه کارهای بیشتر به زودی اضافه می‌شوند...
-        </h3>
-        <a href="#">
-          <article class="portfolio-card">
-            <h3>سایت برای هر نوع سرویس</h3>
-            <div>
-              <img
-                class="portfolio-card__img"
-                src="./resources/monthly-subscription.jpg"
-                alt="سایت سرویس دهی"
-              />
-          </article>
+        <article class="skill-icon">
+          <span class="iconify" data-icon="fluent:javascript-16-filled" data-width="96" data-height="96"></span>
+          <h4>JavaScript</h۴>
+        </article>
+
+        <article class="skill-icon">
+          <span class="iconify" data-icon="bxl:css3" data-width="96" data-height="96"></span>
+          <h4 class="skill-title">CSS</h4>
+        </article>
+
+        <article class="skill-icon">
+          <span class="iconify " data-icon="icon-park-outline:html-five" data-width="96" data-height="96"></span>
+          <h4 class="skill-title">HTML</h4>
+        </article>
+        <article class="skill-icon">
+          <span class="iconify" data-icon="bxl:git" data-width="96" data-height="96"></span>
+          <h4 class="skill-title">Git</h4>
+        </article>
+        <article class="skill-icon">
+          <span class="iconify" data-icon="ci:github" data-width="96" data-height="96"></span>
+          <h4 class="skill-title">Github</h4>
+        </article>
+
+
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <h1 class="section-title">نمونه کارها</h1>
+      <h3 style="color: crimson; background: rgba(165, 42, 42, 0.212)" class="update-message">
+        نمونه کارهای بیشتر به زودی اضافه می‌شوند...
+      </h3>
+      <a href="https://cvservice.netlify.app/">
+        <article class="portfolio-card">
+          <h3>سایت برای هر نوع سرویس</h3>
+          <div>
+            <img class="portfolio-card__img" src="./resources/monthly-subscription.jpg" alt="سایت سرویس دهی" />
+        </article>
+      </a>
+      <a href="https://letsguessme.netlify.app/">
+        <article class="portfolio-card">
+          <h3>بازی هیجان انگیز حدس بزن</h3>
+          <div>
+            <img class="portfolio-card__img" src="./resources/guess-me.jpg" alt="سایت سرویس دهی" />
+          </div>
+        </article>
+      </a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="social-container">
+
+      <div>
+        <a href="https://twitter.com/Vahidpr">
+          <img src="./resources/sm-icons/Twitter.svg" alt="twitter">
         </a>
-          <article class="portfolio-card">
-            <h3>بازی هیجان انگیز حدس بزن</h3>
-            <div>
-              <img
-                class="portfolio-card__img"
-                src="./resources/guess-me.jpg"
-                alt="سایت سرویس دهی"
-              />
-            </div>
-          </article>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="social-container">
-        
-        <div>
-          <a href="https://twitter.com/Vahidpr">
-            <img src="./resources/sm-icons/Twitter.svg" alt="twitter">
-          </a>
-        </div>
-        <div>
-          <a href="https://www.instagram.com/iamvahidp/">
+      </div>
+      <div>
+        <a href="https://www.instagram.com/iamvahidp/">
           <img src="./resources/sm-icons/Instagram.svg" alt="instagram">
         </a>
-        </div>
-        
-        <div>
-          <a href="https://github.com/Vahidpro">
+      </div>
+
+      <div>
+        <a href="https://github.com/Vahidpro">
           <img src="./resources/sm-icons/github_git_logo_social_icon.svg" alt="github">
         </a>
-        </div>
-        
-        <div>
+      </div>
+
+      <div>
         <a href="https://www.linkedin.com/in/vahidporki/">
-        <img src="./resources/sm-icons/linkedin_icon.svg" alt="linkedin">
-      </a>
-        </div>
-        
-        
-        <div>
-          <a href="https://www.youtube.com/channel/UCqHFVQfxIYu4toJ3LIBW76g">
+          <img src="./resources/sm-icons/linkedin_icon.svg" alt="linkedin">
+        </a>
+      </div>
+
+
+      <div>
+        <a href="https://www.youtube.com/channel/UCqHFVQfxIYu4toJ3LIBW76g">
           <img src="./resources/sm-icons/YouTube.svg" alt="youtube">
         </a>
-        </div>
-        
       </div>
-      <div class="developer">
-        <p>طراحی و توسعه با ❤️ توسط 
+
+    </div>
+    <div class="developer">
+      <p>طراحی و توسعه با ❤️ توسط
         <a href="https://twitter.com/Vahidpr"> وحید پُرکی</a>
-        ۱۴۰۱ 
+        ۱۴۰۱
       </p>
-      </div>
-      
-    </footer>
-    
-    <script src="./main.js"></script>
-  </body>
-  <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+    </div>
+
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+<script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+
 </html>
