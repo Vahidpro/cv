@@ -20,6 +20,8 @@ body {
 
 img {
 	border-radius: 1.2rem;
+	width: 2.5rem;
+	height: 2.5rem;
 }
 
 p {
@@ -28,11 +30,12 @@ p {
 	text-justify: distribute;
 }
 .main-header {
+	display: flex;
+	align-items: center;
 	width: 100%;
 	height: 4rem;
 	top: 0;
 	padding: 0.5rem;
-	vertical-align: middle;
 	background-color: #212121;
 	position: fixed;
 
@@ -73,26 +76,39 @@ p {
 }
 
 .mobile-nav {
-	display: none;
+	// display: none;
+	left: 100%;
 	width: 100vw;
 	height: 100vh;
 	top: 0;
-	left: 0;
 	position: fixed;
 	text-align: center;
 	background: #181818;
 	z-index: 101;
 	border-radius: 0rem 0rem 0.625rem 0.625rem;
 	text-align: center;
+	transition: all 0.5s ease;
 
 	svg {
 		width: 10%;
 	}
 }
+
+.slide {
+	left: 0 !important;
+}
+
+.mobile-nav-close {
+	right: 1.5rem;
+	top: 0.5rem;
+
+	position: absolute;
+}
 .mobile-nav-button {
 	background: none;
 	border: none;
 	cursor: pointer;
+	padding-right: 1rem;
 }
 
 .white {
@@ -104,7 +120,7 @@ p {
 	list-style: none;
 	font-size: x-large;
 	padding: 0.625rem;
-	margin: 10% auto;
+	margin: 20% auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -343,6 +359,10 @@ footer {
 		}
 	}
 
+	.skill-icons {
+		gap: 3rem;
+	}
+
 	.skill-icon {
 		width: 15%;
 		margin: 0.625rem;
@@ -375,5 +395,6 @@ footer {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+		gap: 1rem;
 	}
 }

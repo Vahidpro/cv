@@ -3,8 +3,8 @@ var mobileNavMenu = document.querySelector(".mobile-nav-menu");
 var mobileNavClose = document.querySelector(".mobile-nav-close");
 
 mobileNavMenu.addEventListener("click", function () {
-  mobileNav.style.display = "block";
+	mobileNav.classList.add("slide");
 });
 mobileNavClose.addEventListener("click", function () {
-  mobileNav.style.display = "none";
+	mobileNav.classList.remove("slide");
 });
