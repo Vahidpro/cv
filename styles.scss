@@ -20,8 +20,6 @@ body {
 
 img {
 	border-radius: 1.2rem;
-	width: 2.5rem;
-	height: 2.5rem;
 }
 
 p {
@@ -109,6 +107,11 @@ p {
 	border: none;
 	cursor: pointer;
 	padding-right: 1rem;
+
+	img {
+		width: 2.5rem;
+		height: 2.5rem;
+	}
 }
 
 .white {
