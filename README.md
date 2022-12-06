@@ -1,2 +1,2 @@
 # cv
-🟢 This is going to be my personal CV
+🟢 This is my portfolio, you can see links to my projects here.
