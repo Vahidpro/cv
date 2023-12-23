@@ -12,32 +12,38 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-secondary rounded-bottom-4 mb-5">
+  <nav class="navbar navbar-expand-lg rounded-bottom-4 mb-5">
     <div class="container-fluid">
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-      <div class="logo-container">
+      <di class="d-flex">
+        <div class="btn-group ms-3">
+          <button class="btn btn-secondary btn-sm rounded-end-4 rounded-start-0 border border-primary "
+            data-bs-theme-value="dark">Dark</button>
+          <button class="btn btn-primary btn-sm rounded-end-0 rounded-start-4"
+            data-bs-theme-value="light">light</button>
+        </div>
         <a class="btn-custom btn rounded-5 text-light" href="mailto:ivahidp@gmail.com">ارسال ایمیل</a>
         <a href="./index.html"><img class="img-fluid navbar-brand" src="./assets/logo.png" alt="logo" width="30"></a>
-      </div>
-      <!-- Collapse -->
-      <div class="collapse navbar-collapse mt-3" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link text-light active" href="#about-me">خانه</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#about-me">درباره من</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#skills">مهارت ها</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#portfolio">نمونه کارها</a>
-          </li>
-        </ul>
-      </div>
+    </div>
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse mt-3" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="#about-me">خانه</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-me">درباره من</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">مهارت ها</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">نمونه کارها</a>
+        </li>
+      </ul>
+    </div>
     </div>
 
   </nav>
@@ -47,7 +53,7 @@
   <main>
     <section class="hero-section">
       <div class="hero-image">
-        <img src="./assets/hero-image.svg" alt="hero-image" />
+        <img class="img-fluid" src="./assets/hero-image.svg" alt="hero-image" />
       </div>
     </section>
     <section id="about-me" class="about-me">

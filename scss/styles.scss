@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-	transition: all 0.5s;
+	transition: all 0.2s ease-in-out;
 }
 
 body {
-	background-color: $dark;
+	// background-color: $dark;
 	font-family: "Vazirmatn", sans-serif;
 }
 
@@ -14,13 +14,22 @@ body {
 	background: crimson;
 }
 
-.btn {
+.btn-custom {
 	background-image: linear-gradient(92.88deg,
 			#455eb5 9.16%,
 			#5643cc 43.89%,
 			#673fd7 64.72%);
 }
 
-.btn:hover {
+.btn-custom:hover {
 	box-shadow: rgba(80, 63, 205, 0.5) 0 0.125rem 1.875rem;
+}
+
+[data-bs-theme=dark] .navbar {
+	background-color: var(--bs-primary-bg-subtle);
+}
+
+[data-bs-theme=light] .navbar {
+	background-color: var(--bs-primary-bg-subtle);
+	color: $secondary
 }

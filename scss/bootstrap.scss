@@ -8,4 +8,15 @@ $danger-bg: #2b1111;
 $light: #F3F8FF;
 $dark: #0a0a0a;
 
+// Dark Mode Colors
+$body-color-dark: $light;
+$body-bg-dark: $dark;
+$body-color-dark: $light;
+// $body-bg-dark: red;
+// $body-secondary-color-dark: red;
+// $body-secondary-bg-dark: red;
+// $body-tertiary-color-dark: red;
+// $body-tertiary-bg-dark: red;
+// $body-emphasis-color-dark: red; // Light Mode Colors
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
