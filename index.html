@@ -5,39 +5,42 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="shortcut icon" href="./assets/icon.png" />
+  <link rel="shortcut icon" href="./assets/logo.png" />
   <link rel="stylesheet" href="./css/bootstrap.css">
   <link rel="stylesheet" href="./css/styles.css">
   <title>Vahid Porki</title>
 </head>
 
 <body>
-  <header class="header">
-    <nav class="header__nav">
-      <button class="mobile-nav-button mobile-nav-menu white">
-        <img src="./assets/icons/mobile-ham.svg" alt="">
-      </button>
-    </nav>
-    <div class="logo">
-      <a class="logo-text" href="mailto:ivahidp@gmail.com">ارسال ایمیل</a>
+  <nav class="navbar navbar-expand-lg bg-secondary rounded-bottom-4 mb-5">
+    <div class="container-fluid">
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="logo-container">
+        <a class="btn-custom btn rounded-5 text-light" href="mailto:ivahidp@gmail.com">ارسال ایمیل</a>
+        <a href="./index.html"><img class="img-fluid navbar-brand" src="./assets/logo.png" alt="logo" width="30"></a>
+      </div>
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse mt-3" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-light active" href="#about-me">خانه</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#about-me">درباره من</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#skills">مهارت ها</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#portfolio">نمونه کارها</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <nav class="mobile-nav">
-      <button class="mobile-nav-button mobile-nav-close">
-        <img class="white" src="./assets/icons/mobile-close.svg" alt="">
-      </button>
-      <ul class="mobile-nav__items">
-        <li class="mobile-nav__item">
-          <a href="#about-me">درباره من</a>
-        </li>
-        <li class="mobile-nav__item">
-          <a href="#skills">مهارت ها</a>
-        </li>
-        <li class="mobile-nav__item">
-          <a href="#portfolio">نمونه کارها</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+
+  </nav>
   <h3 class="update-message">
     این وبسایت درحال توسعه و بروز‌رسانی می‌باشد...🧑‍💻🏊👍
   </h3>
