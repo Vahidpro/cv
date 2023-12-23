@@ -1,3 +1,4 @@
+@import './bootstrap.scss';
 @import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
@@ -8,6 +9,7 @@
 	font-family: "Vazirmatn", sans-serif;
 	transition: all 0.5s;
 }
+
 body {
 	background-color: #0a0a0a;
 }
@@ -25,6 +27,7 @@ p {
 	text-align: justify;
 	text-justify: distribute;
 }
+
 .header {
 	display: flex;
 	align-items: center;
@@ -35,10 +38,11 @@ p {
 	background-color: #212121;
 	position: fixed;
 
-	> div {
+	>div {
 		display: inline-block;
 	}
 }
+
 .header__nav {
 	display: inline-block;
 	vertical-align: middle;
@@ -100,6 +104,7 @@ p {
 
 	position: absolute;
 }
+
 .mobile-nav-button {
 	background: none;
 	border: none;
@@ -113,8 +118,7 @@ p {
 }
 
 .white {
-	filter: invert(98%) sepia(4%) saturate(71%) hue-rotate(146deg)
-		brightness(112%) contrast(100%);
+	filter: invert(98%) sepia(4%) saturate(71%) hue-rotate(146deg) brightness(112%) contrast(100%);
 }
 
 .mobile-nav__items {
@@ -156,12 +160,10 @@ a {
 /* Button CSS */
 .logo-text {
 	left: 10px;
-	background-image: linear-gradient(
-		92.88deg,
-		#455eb5 9.16%,
-		#5643cc 43.89%,
-		#673fd7 64.72%
-	);
+	background-image: linear-gradient(92.88deg,
+			#455eb5 9.16%,
+			#5643cc 43.89%,
+			#673fd7 64.72%);
 	font-size: 1.4rem;
 	border-radius: 1.5625rem;
 	border-style: none;
@@ -179,8 +181,10 @@ a {
 	-webkit-user-select: none;
 	touch-action: manipulation;
 	display: flex;
-	align-items: center; /*Vertical align*/
-	justify-content: center; /*horizontal align*/
+	align-items: center;
+	/*Vertical align*/
+	justify-content: center;
+	/*horizontal align*/
 }
 
 .logo-text:hover {
@@ -227,6 +231,7 @@ h3.update-message {
 	border-radius: 0.625rem;
 	font-weight: bold;
 }
+
 h3.update-message::selection {
 	background: springgreen;
 }
@@ -247,6 +252,7 @@ p.about-me {
 		font-weight: bold;
 	}
 }
+
 .content-card {
 	background: #181818;
 	border-radius: 1.25rem;
@@ -285,7 +291,7 @@ h3 {
 	margin: 0.9375rem;
 }
 
-article > h3 {
+article>h3 {
 	margin: 0.6rem 0rem 1rem 0rem;
 	font-size: x-large;
 }
