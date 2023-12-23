@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 	color: rgb(226, 226, 226);
 	font-family: "Vazirmatn", sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	margin: 0;
 	transition: all 0.5s;
 }
 body {
@@ -14,7 +13,6 @@ body {
 }
 
 ::selection {
-	/* color: crimson; */
 	background: crimson;
 }
 
@@ -27,7 +25,7 @@ p {
 	text-align: justify;
 	text-justify: distribute;
 }
-.main-header {
+.header {
 	display: flex;
 	align-items: center;
 	width: 100%;
@@ -41,40 +39,40 @@ p {
 		display: inline-block;
 	}
 }
-.main-nav {
+.header__nav {
 	display: inline-block;
-	// width: (100% - 4.125rem);
 	vertical-align: middle;
-}
-.main-nav__item {
-	display: inline-block;
-	margin: 0 0.3125rem;
-	padding: 0.5rem;
-}
-.main-nav__items {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: flex;
-	justify-content: center;
 
-	li {
+	&__item {
 		display: inline-block;
-		font-size: large;
+		margin: 0 0.3125rem;
+		padding: 0.5rem;
 	}
 
-	a:hover {
-		color: rgb(0, 140, 255);
-	}
+	&__items {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+		justify-content: center;
 
-	button img {
-		width: 2rem;
-		height: 2rem;
+		li {
+			display: inline-block;
+			font-size: large;
+		}
+
+		a:hover {
+			color: rgb(0, 140, 255);
+		}
+
+		button img {
+			width: 2rem;
+			height: 2rem;
+		}
 	}
 }
 
 .mobile-nav {
-	// display: none;
 	left: 100%;
 	width: 100vw;
 	height: 100vh;
