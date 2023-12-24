@@ -11868,6 +11868,14 @@ body {
   background: crimson;
 }
 
+li {
+  list-style: none;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
 .btn-custom {
   background-image: linear-gradient(92.88deg, #455eb5 9.16%, #5643cc 43.89%, #673fd7 64.72%);
 }
@@ -11883,4 +11891,16 @@ body {
 [data-bs-theme=light] .navbar {
   background-color: var(--bs-primary-bg-subtle);
   color: #0a111b;
+}
+
+.success-message {
+  background: rgba(20, 201, 155, 0.3);
+  color: #2e8b57;
+}
+
+.title {
+  background-color: rgba(0, 47, 114, 0.3137254902);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  text-align: center;
 }

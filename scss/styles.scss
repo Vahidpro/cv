@@ -3,6 +3,7 @@
 
 * {
 	transition: all 0.2s ease-in-out;
+
 }
 
 body {
@@ -11,6 +12,18 @@ body {
 
 ::selection {
 	background: crimson;
+}
+
+// header {
+// 	margin-top: 4rem;
+// }
+
+li {
+	list-style: none;
+}
+
+.text-justify {
+	text-align: justify;
 }
 
 .btn-custom {
@@ -31,4 +44,17 @@ body {
 [data-bs-theme=light] .navbar {
 	background-color: var(--bs-primary-bg-subtle);
 	color: $secondary
+}
+
+.success-message {
+	background: (rgba(20, 201, 155, 0.3));
+	color: $success;
+
+}
+
+.title {
+	background-color: #002f7250;
+	border-radius: 1rem;
+	padding: .5rem;
+	text-align: center;
 }
