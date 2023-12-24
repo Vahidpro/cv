@@ -11920,6 +11920,11 @@ a {
   object-fit: cover;
 }
 
+.social-container img {
+  width: 50px;
+  height: 50px;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 920px;
