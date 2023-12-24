@@ -11904,3 +11904,9 @@ li {
   padding: 0.5rem;
   text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 920px;
+  }
+}

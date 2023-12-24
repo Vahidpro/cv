@@ -13,11 +13,11 @@
 
 <body>
   <nav class=" navbar navbar-expand-lg rounded-bottom-4 mb-4 flex-row-reverse w-100">
-    <div class="container-fluid justify-content-lg-end">
+    <div class="container flex-lg-row-reverse">
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-      <di class="d-flex">
+      <div class="d-flex">
         <div class="btn-group ms-3">
           <button class="btn btn-secondary btn-sm rounded-end-5 rounded-start-0 border border-primary "
             data-bs-theme-value="dark">Dark</button>
@@ -26,29 +26,28 @@
         </div>
         <a class="btn-custom btn rounded-5 text-light" href="mailto:ivahidp@gmail.com">ارسال ایمیل</a>
         <a href="./index.html"><img class="img-fluid navbar-brand" src="./assets/logo.png" alt="logo" width="30"></a>
-    </div>
-    <!-- Collapse -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mb-2 mb-lg-0 pe-0 mx-3">
-        <li class="nav-item text-nowrap">
-          <a class="nav-link active text-nowrap" href="#about-me">خانه</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-nowrap" href="#about-me">درباره من</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-nowrap" href="#skills">مهارت ها</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-nowrap" href="#portfolio">نمونه کارها</a>
-        </li>
-      </ul>
-    </div>
-    </div>
+      </div>
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 pe-0 mx-3">
+          <li class="nav-item text-nowrap">
+            <a class="nav-link active text-nowrap" href="#about-me">خانه</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-nowrap" href="#about-me">درباره من</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-nowrap" href="#skills">مهارت ها</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-nowrap" href="#portfolio">نمونه کارها</a>
+          </li>
+        </ul>
+      </div>
   </nav>
 
   <!-- Header -->
-  <header>
+  <header class="container">
     <div class="contaniner m-4">
       <p class="success-message p-3 rounded-4 fw-bold">
         این وبسایت درحال توسعه و بروز‌رسانی می‌باشد...🧑‍💻🏊👍
@@ -59,7 +58,7 @@
             <img class="img-fluid" src="./assets/hero-image.svg" alt="hero-image" />
           </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5" id="about-me">
           <span class="fs-2 fw-semibold d-inline-block mb-4 title mt-4 mt-md-0">درباره من</span>
           <p class="text-justify">من یک <span class="text-primary fw-bold mt-5 text">توسعه دهنده فرانت
               اند</span> هستم و علاقه شدیدی به
@@ -72,6 +71,7 @@
     </div>
   </header>
   <main>
+    <!-- Skills Section -->
     <section id="skills" class="skills">
       <div class="container">
         <span class="title fs-2 fw-semibold d-block">مهارت ها</span>
@@ -120,7 +120,11 @@
         </ul>
       </div>
     </section>
-
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+      <div class="container"></div>
+    </section>
+    <!-- Old -->
     <section id="portfolio" class="portfolio">
       <h1 class="section-title">نمونه کارها</h1>
       <h3 style="color: crimson; background: rgba(165, 42, 42, 0.212)" class="update-message">
