@@ -18,6 +18,10 @@ li {
 	list-style: none;
 }
 
+a {
+	text-decoration: none;
+}
+
 .text-justify {
 	text-align: justify;
 }
@@ -48,6 +52,11 @@ li {
 
 }
 
+.danger-message {
+	color: crimson;
+	background: rgba(165, 42, 42, 0.212)
+}
+
 .title {
 	background-color: #002f7250;
 	border-radius: 1rem;
@@ -55,9 +64,16 @@ li {
 	text-align: center;
 }
 
+.portfolio-image {
+	width: 5rem;
+	height: 16rem;
+	object-fit: cover;
+}
+
 @media screen and (min-width: 768px) {
 	.container {
 		max-width: 920px;
+		margin: 0 auto;
 	}
 
 }

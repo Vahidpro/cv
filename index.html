@@ -49,7 +49,7 @@
   <!-- Header -->
   <header class="container">
     <div class="contaniner m-4">
-      <p class="success-message p-3 rounded-4 fw-bold">
+      <p class="success-message p-3 rounded-4 fw-bold d-inline-block">
         این وبسایت درحال توسعه و بروز‌رسانی می‌باشد...🧑‍💻🏊👍
       </p>
       <div class="row flex-row-reverse mt-5">
@@ -120,79 +120,85 @@
         </ul>
       </div>
     </section>
+
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio">
-      <div class="container"></div>
+      <div class="container">
+        <span class="title fs-2 fw-semibold d-block">نمونه کارها</span>
+        <p class="p-3 rounded-4 fw-bold danger-message my-4 d-inline-block">
+          ❇️ نمونه کارهای بیشتر به زودی اضافه می‌شوند...
+        </p>
+
+        <ul class="row justify-content-between">
+          <li class="rounded-4 bg-secondary col-md-5 p-4 my-4 ">
+            <a href="https://cvservice.netlify.app/">
+              <div class="">
+                <img class="img-fluid w-100 rounded-4 portfolio-image" src="./assets/images/portfolio-service.png"
+                  alt="">
+              </div>
+              <span class="text-center d-block text-primary fw-bold fs-4 mt-3 text">نمونه سایت ۱</span>
+            </a>
+          </li>
+          <li class="rounded-4 bg-secondary col-md-5 p-4">
+            <a href="https://letsguessme.netlify.app/">
+              <div class="">
+                <img class="img-fluid w-100 rounded-4 portfolio-image" src="./assets/images/portfolio-guessme.png"
+                  alt="">
+              </div>
+              <span class="text-center d-block text-primary fw-bold fs-4 mt-3 text">بازی هیجان انگیز حدس بزن</span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
+
+
     <!-- Old -->
-    <section id="portfolio" class="portfolio">
-      <h1 class="section-title">نمونه کارها</h1>
-      <h3 style="color: crimson; background: rgba(165, 42, 42, 0.212)" class="update-message">
-        نمونه کارهای بیشتر به زودی اضافه می‌شوند...
-      </h3>
-      <a href="https://cvservice.netlify.app/">
-        <article class="portfolio-card">
-          <h3>سایت برای هر نوع سرویس</h3>
-          <div>
-            <img class="portfolio-card__img" src="./assets/images/portfolio-service.png" alt="سایت سرویس دهی" />
-        </article>
-      </a>
-      <a href="https://letsguessme.netlify.app/">
-        <article class="portfolio-card">
-          <h3>بازی هیجان انگیز حدس بزن</h3>
-          <div>
-            <img class="portfolio-card__img" src="./assets/images/portfolio-guessme.png" alt="سایت سرویس دهی" />
-          </div>
-        </article>
-      </a>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div class="social-container">
+    <footer>
+      <div class="social-container">
 
-      <div>
-        <a href="https://twitter.com/Vahidpr">
-          <img src="./assets/sm-icons/Twitter.svg" alt="twitter">
-        </a>
-      </div>
-      <div>
-        <a href="https://www.instagram.com/iamvahidp/">
-          <img src="./assets/sm-icons/Instagram.svg" alt="instagram">
-        </a>
-      </div>
+        <div>
+          <a href="https://twitter.com/Vahidpr">
+            <img src="./assets/sm-icons/Twitter.svg" alt="twitter">
+          </a>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/iamvahidp/">
+            <img src="./assets/sm-icons/Instagram.svg" alt="instagram">
+          </a>
+        </div>
 
-      <div>
-        <a href="https://github.com/Vahidpro">
-          <img src="./assets/sm-icons/github_git_logo_social_icon.svg" alt="github">
-        </a>
+        <div>
+          <a href="https://github.com/Vahidpro">
+            <img src="./assets/sm-icons/github_git_logo_social_icon.svg" alt="github">
+          </a>
+        </div>
+
+        <div>
+          <a href="https://www.linkedin.com/in/vahidporki/">
+            <img src="./assets/sm-icons/linkedin_icon.svg" alt="linkedin">
+          </a>
+        </div>
+
+
+        <div>
+          <a href="https://www.youtube.com/channel/UCqHFVQfxIYu4toJ3LIBW76g">
+            <img src="./assets/sm-icons/YouTube.svg" alt="youtube">
+          </a>
+        </div>
+
+      </div>
+      <div class="developer">
+        <p>طراحی و توسعه با ❤️ توسط
+          <a href="https://twitter.com/Vahidpr"> وحید پُرکی</a>
+          ۱۴۰۱-۱۴۰۳
+        </p>
       </div>
 
-      <div>
-        <a href="https://www.linkedin.com/in/vahidporki/">
-          <img src="./assets/sm-icons/linkedin_icon.svg" alt="linkedin">
-        </a>
-      </div>
+    </footer>
 
-
-      <div>
-        <a href="https://www.youtube.com/channel/UCqHFVQfxIYu4toJ3LIBW76g">
-          <img src="./assets/sm-icons/YouTube.svg" alt="youtube">
-        </a>
-      </div>
-
-    </div>
-    <div class="developer">
-      <p>طراحی و توسعه با ❤️ توسط
-        <a href="https://twitter.com/Vahidpr"> وحید پُرکی</a>
-        ۱۴۰۱-۱۴۰۳
-      </p>
-    </div>
-
-  </footer>
-
-  <script src="./js/main.js"></script>
-  <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 
