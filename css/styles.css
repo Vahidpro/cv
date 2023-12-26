@@ -11888,13 +11888,12 @@ a {
   box-shadow: rgba(80, 63, 205, 0.5) 0 0.125rem 1.875rem;
 }
 
-[data-bs-theme=dark] .navbar {
-  background-color: var(--bs-primary-bg-subtle);
+[data-bs-theme=dark] .portfolio-item a {
+  color: #F3F8FF;
 }
 
-[data-bs-theme=light] .navbar {
-  background-color: var(--bs-primary-bg-subtle);
-  color: #0a111b;
+[data-bs-theme=light] .portfolio-item a {
+  color: #0a0a0a;
 }
 
 .success-message {
@@ -11916,7 +11915,7 @@ a {
 
 .portfolio-image {
   width: 5rem;
-  height: 16rem;
+  height: 14rem;
   object-fit: cover;
 }
 
