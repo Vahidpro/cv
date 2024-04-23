@@ -1,0 +1,29 @@
+// Colors
+$primary: #711DB0;
+$secondary: #0a111b;
+$success: #2e8b57;
+$success-bg: #031d0e;
+$danger: #dc143c;
+$danger-bg: #2b1111;
+$light: #F3F8FF;
+$dark: #0a0a0a;
+
+// Dark Mode Colors
+$body-color-dark: $light;
+$body-bg-dark: $dark;
+$body-color-dark: $light;
+
+
+$spacer: 1rem !default;
+$spacers: (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 6,
+    7: $spacer * 8,
+    8: $spacer * 12) !default;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,87 @@
+@import './bootstrap.scss';
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+	font-family: "Vazirmatn", sans-serif;
+}
+
+::selection {
+	background: crimson;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar {
+	transition: all .5s ease-in-out;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.btn-custom {
+	background-image: linear-gradient(92.88deg,
+			#455eb5 9.16%,
+			#5643cc 43.89%,
+			#673fd7 64.72%);
+}
+
+.btn-custom:hover {
+	box-shadow: rgba(80, 63, 205, 0.5) 0 0.125rem 1.875rem;
+}
+
+[data-bs-theme=dark] {
+	.portfolio-item a {
+		color: $light;
+	}
+}
+
+[data-bs-theme=light] {
+	.portfolio-item a {
+		color: $dark;
+	}
+}
+
+.success-message {
+	background: (rgba(20, 201, 155, 0.3));
+	color: $success;
+
+}
+
+.danger-message {
+	color: crimson;
+	background: rgba(165, 42, 42, 0.212)
+}
+
+.title {
+	background-color: #002f7250;
+	border-radius: 1rem;
+	padding: .5rem;
+	text-align: center;
+}
+
+.portfolio-image {
+	width: 5rem;
+	height: 14rem;
+	object-fit: cover;
+}
+
+
+.social-container img {
+	width: 50px;
+	height: 50px;
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 920px;
+		margin: 0 auto;
+	}
+
+}
