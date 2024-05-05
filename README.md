@@ -2,6 +2,16 @@
 
 This is my website built to showcase my introduction, projects, skills, and contact information. The website is designed to provide an overview of my professional profile and accomplishments.
 
+## Screenshots
+
+| Dark Mode  | Light Mode  |
+| ------------- | ------------- |
+|  ![Screenshot 2024-05-05 105601](https://github.com/Vahidpro/cv/assets/43805831/b8b9dd4f-15fa-4aeb-847f-db65466a21b0)|  ![Screenshot 2024-05-05 105622](https://github.com/Vahidpro/cv/assets/43805831/86e0ddd2-d7d7-4707-bd22-eba2329558e4)|
+
+| Skills  | Mobile View |
+| ------------- | ------------- |
+| ![Screenshot 2024-05-05 105656](https://github.com/Vahidpro/cv/assets/43805831/5c857b91-c574-4cc9-aa46-7d2ef929385b) |![Screenshot 2024-05-05 105837](https://github.com/Vahidpro/cv/assets/43805831/c5c8d03b-1fc8-4703-b8b2-ad6bc31e8c89)|
+
 ## Technologies Used
 
 ### Frontend
