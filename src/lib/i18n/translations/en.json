@@ -1,0 +1,55 @@
+{
+	"greeting": "Hello, welcome😃",
+	"name": "I'm Vahid",
+	"role": "Frontend Developer",
+	"about": {
+		"title": "About Me",
+		"description": "I am a frontend developer with a strong passion for learning new technologies. I believe that curiosity is the gateway to learning anything. This addiction to learning has helped me acquire the amazing skills needed for this profession."
+	},
+	"skills": {
+		"title": "Skills",
+		"items": [
+			{ "name": "HTML", "icon": "FaHtml5" },
+			{ "name": "CSS", "icon": "FaCss3Alt" },
+			{ "name": "Bootstrap", "icon": "FaBootstrap" },
+			{ "name": "JavaScript", "icon": "FaJs" },
+			{ "name": "TypeScript", "icon": "SiTypescript" },
+			{ "name": "React", "icon": "FaReact" },
+			{ "name": "Next.js", "icon": "SiNextdotjs" },
+			{ "name": "Git", "icon": "FaGitAlt" },
+			{ "name": "GitHub", "icon": "FaGithub" },
+			{ "name": "Sass", "icon": "FaSass" }
+		]
+	},
+	"portfolio": {
+		"title": "Portfolio",
+		"comingSoon": "More projects coming soon...",
+		"items": [
+			{
+				"title": "Sample Website 1",
+				"image": "/assets/images/portfolio-service.png",
+				"link": "https://cvservice.netlify.app/",
+				"alt": "Portfolio Service"
+			},
+			{
+				"title": "Exciting Guess Game",
+				"image": "/assets/images/portfolio-guessme.png",
+				"link": "https://letsguessme.netlify.app/",
+				"alt": "Guess Me Game"
+			}
+		]
+	},
+	"footer": {
+		"contact": "Contact Me:",
+		"developedBy": "Designed and developed with ❤️ by",
+		"year": "2022-2024"
+	},
+	"nav": {
+		"home": "Home",
+		"about": "About",
+		"skills": "Skills",
+		"portfolio": "Portfolio",
+		"email": "Send Email"
+	},
+	"developmentNotice": "This website is under development and updates...🧑‍💻🏊👍"
+}
