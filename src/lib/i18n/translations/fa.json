@@ -1,0 +1,55 @@
+{
+	"greeting": "درود، خوش اومدی😃",
+	"name": "من وحیدم",
+	"role": "توسعه دهنده فرانت اند",
+	"about": {
+		"title": "درباره من",
+		"description": "من یک توسعه دهنده فرانت اند هستم و علاقه شدیدی به یادگیری تکنولوژی های جدید دارم، معتقدم که کنجکاوی دری به سوی یادگیری هر چیزی هست، این اعتیاد به یادگیری بهم کمک کرده تا چیزهای فوق العاده ای که برای این حرفه نیازه فرا بگیرم."
+	},
+	"skills": {
+		"title": "مهارت ها",
+		"items": [
+			{ "name": "HTML", "icon": "FaHtml5" },
+			{ "name": "CSS", "icon": "FaCss3Alt" },
+			{ "name": "Bootstrap", "icon": "FaBootstrap" },
+			{ "name": "JavaScript", "icon": "FaJs" },
+			{ "name": "TypeScript", "icon": "SiTypescript" },
+			{ "name": "React", "icon": "FaReact" },
+			{ "name": "Next.js", "icon": "SiNextdotjs" },
+			{ "name": "Git", "icon": "FaGitAlt" },
+			{ "name": "GitHub", "icon": "FaGithub" },
+			{ "name": "Sass", "icon": "FaSass" }
+		]
+	},
+	"portfolio": {
+		"title": "نمونه کارها",
+		"comingSoon": "نمونه کارهای بیشتر به زودی اضافه می‌شوند...",
+		"items": [
+			{
+				"title": "نمونه سایت ۱",
+				"image": "/assets/images/portfolio-service.png",
+				"link": "https://cvservice.netlify.app/",
+				"alt": "Portfolio Service"
+			},
+			{
+				"title": "بازی هیجان انگیز حدس بزن",
+				"image": "/assets/images/portfolio-guessme.png",
+				"link": "https://letsguessme.netlify.app/",
+				"alt": "Guess Me Game"
+			}
+		]
+	},
+	"footer": {
+		"contact": "ارتباط با من:",
+		"developedBy": "طراحی و توسعه با ❤️ توسط",
+		"year": "۱۴۰۳-۱۴۰۱"
+	},
+	"nav": {
+		"home": "خانه",
+		"about": "درباره من",
+		"skills": "مهارت ها",
+		"portfolio": "نمونه کارها",
+		"email": "ارسال ایمیل"
+	},
+	"developmentNotice": "این وبسایت درحال توسعه و بروز‌رسانی می‌باشد...🧑‍💻🏊👍"
+}
