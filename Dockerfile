@@ -35,6 +35,9 @@ ENV NEXT_TELEMETRY_DISABLED 1
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
+# Install serve globally before switching to non-root user
+RUN npm install -g serve
+
 # Copy the public folder from the project as this is not included in the build process
 COPY --from=builder /app/public ./public
 
@@ -53,10 +56,6 @@ EXPOSE 3000
 ENV PORT 3000
 # set hostname to localhost
 ENV HOSTNAME "0.0.0.0"
-
-# Since this is a static export, we'll use a simple HTTP server
-# Install a simple static file server
-RUN npm install -g serve
 
 # Start the application
 CMD ["serve", "-s", "out", "-l", "3000"]
